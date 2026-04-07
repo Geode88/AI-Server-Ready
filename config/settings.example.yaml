@@ -1,0 +1,11 @@
+project_name: AI-Server-Ready
+mode: local_first
+logging:
+  level: INFO
+paths:
+  workspace: ./workspace
+  state: ./state
+features:
+  repo_audit: true
+  local_index: true
+  report_generation: true
